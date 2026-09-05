@@ -100,7 +100,7 @@ img {
         width: 100% !important;
         justify-content: center !important;
     }
-
+/* ============================ Banner ================================== */
     .banner_wrapper {
         flex-direction: column !important;
         padding-top: 50px !important;
@@ -246,7 +246,6 @@ img {
         flex-direction: column !important;
         gap: 25px !important;
         border-radius: 0 0 12px 12px !important;
-        
         opacity: 0 !important;
         visibility: hidden !important;
         transform: translateY(-20px) !important;

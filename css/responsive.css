@@ -348,13 +348,11 @@ img {
         gap: 40px !important;
         margin-top: 40px !important;
     }
-    
     .package_main, 
     .plan_main {
         width: 100% !important; 
         max-width: 100% !important;
     }
-    
     .plan_main {
         padding: 30px 20px !important; 
     }
@@ -419,30 +417,27 @@ img {
         align-items: center !important; 
         text-align: center !important; 
     }
-    
     .footer_logo p {
         margin-top: 16px !important;
         font-size: 16px !important;
     }
-
-.footer_list_main {
+    .footer_list_main {
     width: 100% !important;
     display: flex !important;
     flex-wrap: wrap !important; 
     justify-content: space-between !important; 
     gap: 40px 0 !important; 
     text-align: center !important;
-}
-.footer_list_heading{
-    font-size: 25px;
-}
-
-.footer_list_main > div,
-.footer_list_main .footer_link_item { 
-    width: 48% !important; 
-    flex-grow: 0 !important;
-    flex-shrink: 0 !important;
-}
+    }
+    .footer_list_heading{
+        font-size: 25px;
+    }
+    .footer_list_main > div,
+    .footer_list_main .footer_link_item { 
+        width: 48% !important; 
+        flex-grow: 0 !important;
+        flex-shrink: 0 !important;
+    }
     .footerUl {
         margin-top: 20px !important;
         gap: 16px !important; 

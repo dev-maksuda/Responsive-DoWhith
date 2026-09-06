@@ -181,8 +181,56 @@ img {
         width: 100% !important;
         text-align: center !important;
     }
-    .video_details_list li {
-        justify-content: center !important;
+    .video_details_list {
+    display: flex !important;
+    align-items: flex-start !important; 
+    max-width: max-content !important;
+    margin: 0 auto !important; 
+    gap: 20px !important;
+}
+.video_details p{
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+    #review {
+        padding: 60px 0 !important;
+    }
+    .review_wrapper {
+        flex-direction: column !important; 
+        gap: 50px !important; 
+        column-gap: 0 !important;
+    }
+    .review_main, 
+    .Contact_form {
+        width: 100% !important; 
+        max-width: 100% !important;
+    }
+    .review_main .review_heading h3 {
+        font-size: 36px !important;
+        line-height: normal !important;
+    }
+    .review_main .review_heading p {
+        width: 100% !important; 
+        font-size: 16px !important;
+        margin-top: 15px !important;
+    }
+    .review_main .review_text {
+        margin-top: 40px !important;
+    }
+    .review_main .review_text p {
+        margin-top: 24px !important;
+        font-size: 18px !important;
+    }
+    .review_main .review_text .reviewer {
+        margin-top: 20px !important;
+        margin-bottom: 30px !important;
+        font-size: 18px !important;
+    }
+    .Contact_form {
+        padding: 40px 30px !important; 
+    }
+    .Contact_form form {
+        margin-top: 30px !important;
     }
 }
 /* ===================================== SMALL SCREENS ============================= */
@@ -190,11 +238,7 @@ img {
 /* ===================================== SMALL SCREENS ============================= */
 
 @media (max-width: 575px), (max-width: 767px){
-    .container {
-        max-width: 540px !important;
-        width: 100% !important;
-        padding: 0 15px !important;
-    }
+    
     /* ========================= Navbar ================================ */
     .nav_wrapper {
         flex-direction: row !important;
@@ -240,38 +284,6 @@ img {
         transition: all 0.3s ease-in-out !important;
         z-index: 1000 !important;
     }
-    .menu_container.open {
-        opacity: 1 !important;
-        visibility: visible !important;
-        transform: translateY(0) !important;
-        display: flex !important;
-    }
-    .menu {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: 20px !important;
-        width: 100% !important;
-    }
-    
-    .nav_btn {
-        display: flex !important;
-        width: 100% !important;
-        justify-content: center !important;
-    }
-    .nav_btn a {
-        display: inline-block !important;
-        background-color: #6345D5 !important;
-        border-radius: 8px !important;
-        padding: 16px 40px !important;
-        color: #fff !important;
-        font-size: 18px !important;
-        font-weight: 700 !important;
-        line-height: normal !important;
-        width: 100% !important;
-        text-align: center !important;
-    }
-    
     /* =============================== banner ================================== */
     .shape-1, .shape-2, .shape-3 {
         display: none !important;

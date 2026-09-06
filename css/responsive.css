@@ -62,16 +62,13 @@ img {
         font-size: 42px !important;
     }
 }
-
 /* ================================ MEDIUM SCREENS =========================== */
-
 @media (max-width: 991px) {
     .container {
         max-width: 720px !important;
         width: 100% !important;
         padding: 0 20px !important;
     }
-    
     #navbar {
         position: relative !important;
         background: #ffffff !important;
@@ -129,7 +126,6 @@ img {
         height: 450px !important;
         bottom: -220px !important;
     }
-
     #counter {
         padding-top: 280px !important;
     }
@@ -165,7 +161,6 @@ img {
         width: 100% !important;
         text-align: center !important;
     }
-
     #video {
         padding: 80px 0 !important;
     }
@@ -322,14 +317,11 @@ img {
     }
     /* ============================ video ====================== */
 .video_details_list {
-    display: flex !important;
-    flex-direction: column !important;
     align-items: flex-start !important; 
     max-width: max-content !important;
     margin: 0 auto !important; 
     gap: 20px !important;
 }
-
 .video_details_list li {
     display: flex !important;
     align-items: center !important; 
@@ -338,10 +330,9 @@ img {
     text-align: left !important;
 }
 /* ========================= Price ================================ */
-
-    #price {
-        padding: 60px 0 !important;
-    }
+#price{
+    padding: 10px 0;
+}
     .price_heading h3 {
         font-size: 36px !important;
         line-height: normal !important;
@@ -414,7 +405,7 @@ img {
     }
     /* ============================ Footer ========================== */
     #footer {
-        padding-top: 60px !important;
+        padding-top: 20px !important;
         padding-bottom: 24px !important;
     }
     .footer_wrapper {
@@ -425,16 +416,10 @@ img {
     
     .footer_logo {
         width: 100% !important;
-        max-width: 450px !important;
-        display: flex !important;
-        flex-direction: column !important;
         align-items: center !important; 
         text-align: center !important; 
     }
-    .footer_logo a {
-        display: flex !important;
-        justify-content: center !important;
-    }
+    
     .footer_logo p {
         margin-top: 16px !important;
         font-size: 16px !important;
@@ -447,6 +432,9 @@ img {
     justify-content: space-between !important; 
     gap: 40px 0 !important; 
     text-align: center !important;
+}
+.footer_list_heading{
+    font-size: 25px;
 }
 
 .footer_list_main > div,
@@ -469,9 +457,6 @@ img {
     .social_link {
         justify-content: center !important; 
         width: 100% !important;
-    }
-    .copyright p {
-        font-size: 16px !important;
     }
 }
 

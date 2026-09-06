@@ -196,24 +196,13 @@ img {
         padding: 0 15px !important;
     }
     /* ========================= Navbar ================================ */
-    #navbar {
-        position: absolute !important;
-        background: transparent !important;
-        box-shadow: none !important;
-    }
-
     .nav_wrapper {
-        display: flex !important;
         flex-direction: row !important;
-        justify-content: space-between !important;
-        align-items: center !important;
         position: relative !important;
-        width: 100% !important;
     }
     .logo {
         display: flex !important;
         justify-content: flex-start !important;
-        width: auto !important;
     }
     .mobile_toggle_btn {
         display: flex !important;
@@ -230,9 +219,8 @@ img {
     .mobile_toggle_btn span {
         width: 100% !important;
         height: 3px !important;
-        background-color: #192252 !important;
+        background-color: #6345D5 !important;
         border-radius: 2px !important;
-        transition: all 0.3s ease !important;
     }
     .menu_container {
         position: absolute !important;
